@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #EAE2B7;
+  position: fixed;
+  width: 100vw;
+  border-bottom: 10px ridge brown;
+}
+
+#details-container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+#bg-img-container {
+  background-image: url('./assets/pexels-rdne-7979069.jpg');
+  background-size: contain;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  z-index: -1;
+  top: 80px;
+}
