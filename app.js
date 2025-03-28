@@ -1,3 +1,3 @@
 import * as Data from "./data.js"
 
-Data.initialLoad()
+console.log( await Data.getAll() )
