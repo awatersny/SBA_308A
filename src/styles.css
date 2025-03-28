@@ -20,7 +20,7 @@ header {
 }
 
 #bg-img-container {
-  background-image: url('./assets/pexels-rdne-7979069.jpg');
+  background-image: url('../assets/pexels-rdne-7979069.jpg');
   background-size: contain;
   position: fixed;
   width: 100vw;

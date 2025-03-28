@@ -1,10 +1,6 @@
-import * as Data from "./data.js"
+import * as Data from "./my_modules/data.js"
 
-const books = await Data.getAll("books")
-const characters = await Data.getAll("characters")
-const houses = await Data.getAll("houses")
-const spells = await Data.getAll("spells")
-console.log(books)
-console.log(characters)
-console.log(houses)
-console.log(spells)
+console.log(Data.books)
+console.log(Data.characters)
+console.log(Data.houses)
+console.log(Data.spells)
