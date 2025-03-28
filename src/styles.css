@@ -12,6 +12,10 @@ header {
   border-bottom: 10px ridge brown;
 }
 
+h1 {
+  color: brown;
+}
+
 #details-container {
   width: 100vw;
   display: flex;
@@ -28,4 +32,11 @@ header {
   display: flex;
   z-index: -1;
   top: 80px;
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
 }
