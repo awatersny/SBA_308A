@@ -1,7 +1,6 @@
 import * as Data from "./my_modules/data.js"
 import * as Potter from "./my_modules/potter.js"
 
-
 buildNavBar()
 
 async function buildNavBar() {
@@ -23,6 +22,7 @@ async function buildNavBar() {
 
 async function buildLangSelect() {
   const langSelect = document.createElement("select")
+  langSelect.id = "lang-select"
   const langs = await Data.getLanguages()
   langs.forEach(lang => {
     const option = document.createElement("option")
@@ -37,5 +37,7 @@ async function buildLangSelect() {
 async function renderCategory(evt) {
   evt.preventDefault()
   const topic = await Potter.getAll(evt.target.id, Data.lang)
-  console.log(topic)
+  topic.forEach(instance => {
+    console.log(instance)
+  })
 }
