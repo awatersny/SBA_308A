@@ -45,4 +45,5 @@ h1 {
 .nav-elt:hover {
   background-color: brown;
   color: #EAE2B7;
+  box-shadow: 4px 4px 11px #000000;
 }

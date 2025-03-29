@@ -21,6 +21,7 @@ async function buildNavBar() {
     link.addEventListener("click", renderCategory)
     navbar.appendChild(navEl)
   });
+  navbar.style.margin = 0
   navbar.appendChild(langSelect)
 }
 
