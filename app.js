@@ -13,7 +13,11 @@ async function buildNavBar() {
     const link = navEl.firstChild.firstChild
     navEl.firstChild.style.textDecoration = "none"
     navEl.firstChild.style.color = "brown"
-    link.setAttribute("id", category.toLowerCase())
+    link.style.margin = 0
+    link.style.padding = "10px"
+    link.style.borderRadius = "10px"
+    link.className = "nav-elt"
+    link.id = category.toLowerCase()
     link.addEventListener("click", renderCategory)
     navbar.appendChild(navEl)
   });

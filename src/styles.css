@@ -41,3 +41,8 @@ h1 {
   align-items: center;
   list-style: none;
 }
+
+.nav-elt:hover {
+  background-color: brown;
+  color: #EAE2B7;
+}
